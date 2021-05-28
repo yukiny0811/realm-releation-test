@@ -69,8 +69,8 @@ class SecondTableViewController: UITableViewController {
     
     //ただランダムな文字列作ってるだけです
     func randomString() -> String {
-      let characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-      return String((0..<12).map{ _ in characters.randomElement()! })
+        let characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        return String((0..<12).map{ _ in characters.randomElement()! })
     }
 
 }
